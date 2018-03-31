@@ -13,6 +13,6 @@ function distanceTravelledInFeet(start, end){
   return Math.abs((start- end) * 264)
 }
 
-function calculatesFarePrice(){
-  
+function calculatesFarePrice(start, end){
+  if 
 }
