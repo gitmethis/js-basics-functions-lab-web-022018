@@ -17,7 +17,7 @@ function calculatesFarePrice(start, end){
   if (Math.abs((start-end) * 264) >= 400 && Math.abs((start-end) * 264)  <= 2000){
       return Number.parseFloat(((Math.abs((start-end) * 264) * 2)/100).toFixed(2))
   }
-  else if (Math.abs((start-end) * 264) > 2000 Math.abs((start-end) * 264) < 2500){
+  else if (Math.abs((start-end) * 264) > 2000 && Math.abs((start-end) * 264) < 2500){
     return 25
   }
   else if (Math.abs((start-end) * 264) > 2500){
