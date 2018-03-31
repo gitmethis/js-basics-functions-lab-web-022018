@@ -23,7 +23,7 @@ function calculatesFarePrice(start, end){
   else if (Math.abs((start-end) * 264) > 2500){
     return 'cannot travel that far'
   }
-  else if (Math.abs((start-end) * 264) < 400 )
+  else if (Math.abs((start-end) * 264) < 400 ){
     return 0
   }
   
